@@ -1,0 +1,449 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"6 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/dht11.h
+[v _dht11_init dht11_init `(v  1 e 1 0 ]
+"15
+[v _find_response find_response `(v  1 e 1 0 ]
+"26
+[v _read_dht11 read_dht11 `(uc  1 e 1 0 ]
+"10 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+[v i1_Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"32
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+[v i1_Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"41
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+[v i1_Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+"47
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+[v i1_Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"84
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"103
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+[v i1_Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"119
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+[v i1_Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"147
+[v _Lcd_Write_Number Lcd_Write_Number `(v  1 e 1 0 ]
+"154
+[v _LCD_Clear_Char LCD_Clear_Char `(v  1 e 1 0 ]
+"31 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _Button_Init Button_Init `(v  1 e 1 0 ]
+"36
+[v _Sensor_Init Sensor_Init `(v  1 e 1 0 ]
+"60
+[v _Show_Menu Show_Menu `(v  1 e 1 0 ]
+"77
+[v _Show_Menu_Auto Show_Menu_Auto `(v  1 e 1 0 ]
+"102
+[v _LCD_INFOR LCD_INFOR `(v  1 e 1 0 ]
+"125
+[v _LCD_MENU_AUTO LCD_MENU_AUTO `(v  1 e 1 0 ]
+"144
+[v _LCD_MENU LCD_MENU `(v  1 e 1 0 ]
+"170
+[v _UP_BN UP_BN `(v  1 e 1 0 ]
+"204
+[v _DOWN_BN DOWN_BN `(v  1 e 1 0 ]
+"239
+[v _MENU_BN MENU_BN `(v  1 e 1 0 ]
+"257
+[v _OK_BN OK_BN `(v  1 e 1 0 ]
+"283
+[v _ISR ISR `II(v  1 e 1 0 ]
+"292
+[v _Control_Fan Control_Fan `(v  1 e 1 0 ]
+"298
+[v _Control_Auto Control_Auto `(v  1 e 1 0 ]
+"334
+[v _main main `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/dht11.h
+[v _Check_bit Check_bit `uc  1 e 1 0 ]
+[v _Temp_byte_1 Temp_byte_1 `uc  1 e 1 0 ]
+[v _Temp_byte_2 Temp_byte_2 `uc  1 e 1 0 ]
+[v _RH_byte_1 RH_byte_1 `uc  1 e 1 0 ]
+[v _RH_byte_2 RH_byte_2 `uc  1 e 1 0 ]
+"5
+[v _Sumation Sumation `uc  1 e 1 0 ]
+"28 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _temp_button temp_button `ui  1 e 2 0 ]
+[v _temperature temperature `ui  1 e 2 0 ]
+[v _humidity humidity `ui  1 e 2 0 ]
+"29
+[v _LCD_Control LCD_Control `ui  1 e 2 0 ]
+[v _FAN1 FAN1 `ui  1 e 2 0 ]
+[v _FAN2 FAN2 `ui  1 e 2 0 ]
+[v _fan1_control fan1_control `ui  1 e 2 0 ]
+[v _fan2_control fan2_control `ui  1 e 2 0 ]
+"30
+[v _TEM TEM `ui  1 e 2 0 ]
+[v _HUM HUM `ui  1 e 2 0 ]
+[v _ENABLE_AUTO ENABLE_AUTO `ui  1 e 2 0 ]
+"216 D:/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S43 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES52  1 e 1 @8 ]
+[s S102 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S116 . 1 `S102 1 . 1 0 `S111 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES116  1 e 1 @11 ]
+[s S76 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1275
+[s S83 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S87 . 1 `S76 1 . 1 0 `S83 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES87  1 e 1 @129 ]
+[s S137 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S146 . 1 `S137 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES146  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S22 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1516
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES31  1 e 1 @136 ]
+"2755
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2758
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2761
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2764
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2767
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2770
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"334 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _main main `(v  1 e 1 0 ]
+{
+"358
+} 0
+"36
+[v _Sensor_Init Sensor_Init `(v  1 e 1 0 ]
+{
+"59
+} 0
+"26 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/dht11.h
+[v _read_dht11 read_dht11 `(uc  1 e 1 0 ]
+{
+"27
+[v read_dht11@for_count for_count `uc  1 a 1 17 ]
+[v read_dht11@data data `uc  1 a 1 16 ]
+"40
+} 0
+"15
+[v _find_response find_response `(v  1 e 1 0 ]
+{
+"24
+} 0
+"6
+[v _dht11_init dht11_init `(v  1 e 1 0 ]
+{
+"13
+} 0
+"84 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"101
+} 0
+"125 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _LCD_MENU_AUTO LCD_MENU_AUTO `(v  1 e 1 0 ]
+{
+"143
+} 0
+"77
+[v _Show_Menu_Auto Show_Menu_Auto `(v  1 e 1 0 ]
+{
+"101
+} 0
+"144
+[v _LCD_MENU LCD_MENU `(v  1 e 1 0 ]
+{
+"166
+} 0
+"60
+[v _Show_Menu Show_Menu `(v  1 e 1 0 ]
+{
+"76
+} 0
+"41 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+{
+"45
+} 0
+"102 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _LCD_INFOR LCD_INFOR `(v  1 e 1 0 ]
+{
+"124
+} 0
+"119 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"121
+[v Lcd_Write_String@i i `i  1 a 2 19 ]
+"119
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"122
+[v Lcd_Write_String@a a `*.24uc  1 a 1 21 ]
+"124
+} 0
+"147
+[v _Lcd_Write_Number Lcd_Write_Number `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Number@a a `i  1 p 2 30 ]
+"153
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 29 ]
+[v ___awmod@counter counter `uc  1 a 1 28 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 23 ]
+[v ___awmod@dividend dividend `i  1 p 2 25 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 21 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 20 ]
+[v ___awdiv@counter counter `uc  1 a 1 19 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 14 ]
+[v ___awdiv@dividend dividend `i  1 p 2 16 ]
+"41
+} 0
+"103 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"105
+[v Lcd_Write_Char@y y `uc  1 a 1 17 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 16 ]
+"103
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"106
+[v Lcd_Write_Char@a a `uc  1 a 1 18 ]
+"117
+} 0
+"47
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"49
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 24 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 23 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 22 ]
+"47
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 18 ]
+"50
+[v Lcd_Set_Cursor@a a `uc  1 a 1 21 ]
+"82
+} 0
+"32
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"34
+[v Lcd_Cmd@a a `uc  1 a 1 17 ]
+"39
+} 0
+"10
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"12
+[v Lcd_Port@a a `uc  1 a 1 14 ]
+"31
+} 0
+"298 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _Control_Auto Control_Auto `(v  1 e 1 0 ]
+{
+"331
+} 0
+"292
+[v _Control_Fan Control_Fan `(v  1 e 1 0 ]
+{
+[v Control_Fan@x x `i  1 p 2 14 ]
+[v Control_Fan@y y `i  1 p 2 16 ]
+"296
+} 0
+"31
+[v _Button_Init Button_Init `(v  1 e 1 0 ]
+{
+"35
+} 0
+"283
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"290
+} 0
+"170
+[v _UP_BN UP_BN `(v  1 e 1 0 ]
+{
+"203
+} 0
+"257
+[v _OK_BN OK_BN `(v  1 e 1 0 ]
+{
+"279
+} 0
+"239
+[v _MENU_BN MENU_BN `(v  1 e 1 0 ]
+{
+"256
+} 0
+"41 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v i1_Lcd_Clear Lcd_Clear `(i  1 e 2 0 ]
+{
+"45
+} 0
+"204 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/MAIN_CONTROL.c
+[v _DOWN_BN DOWN_BN `(v  1 e 1 0 ]
+{
+"238
+} 0
+"154 C:\Users\PC\Desktop\DO_AN_VDK/Source/MAIN_CONTROL/HEADER_FILE/lcd.h
+[v _LCD_Clear_Char LCD_Clear_Char `(v  1 e 1 0 ]
+{
+[v LCD_Clear_Char@a a `i  1 p 2 0 ]
+[v LCD_Clear_Char@b b `i  1 p 2 2 ]
+"157
+} 0
+"119
+[v i1_Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+[v i1Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"121
+[v i1Lcd_Write_String@i i `i  1 a 2 6 ]
+"119
+[v i1Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"122
+[v i1Lcd_Write_String@a a `*.24uc  1 a 1 5 ]
+"124
+} 0
+"103
+[v i1_Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v i1Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"105
+[v i1Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v i1Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"103
+[v i1Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"106
+[v i1Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"117
+} 0
+"47
+[v i1_Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"49
+[v i1Lcd_Set_Cursor@temp temp `uc  1 a 1 10 ]
+[v i1Lcd_Set_Cursor@y y `uc  1 a 1 9 ]
+[v i1Lcd_Set_Cursor@z z `uc  1 a 1 8 ]
+"47
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v i1Lcd_Set_Cursor@b b `uc  1 p 1 4 ]
+"50
+[v i1Lcd_Set_Cursor@a a `uc  1 a 1 7 ]
+"82
+} 0
+"32
+[v i1_Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v i1Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v i1Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"34
+[v i1Lcd_Cmd@a a `uc  1 a 1 3 ]
+"39
+} 0
+"10
+[v i1_Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v i1Lcd_Port@a a `uc  1 a 1 wreg ]
+[v i1Lcd_Port@a a `uc  1 a 1 wreg ]
+"12
+[v i1Lcd_Port@a a `uc  1 a 1 0 ]
+"31
+} 0
