@@ -9,9 +9,14 @@ Main components used:
  
  ![alt text](https://github.com/hmcofetel/air-machine/blob/master/screenshot/screenshot1.png?raw=true)
  
-  ![alt text](https://github.com/hmcofetel/air-machine/blob/master/screenshot/sreenshot2.png.png?raw=true)
+ ![alt text](https://github.com/hmcofetel/air-machine/blob/master/screenshot/sreenshot2.png?raw=true)
  
  This circuit works in both **Automatic** and **Non-automatic** modes:
-  + Ở chế độ tự động:
-    the temperature and humidity control motor will gradually increase the capacity when the environment is not satisfactory and gradually decrease the capacity when the environment exceeds the requirements.
+  + In automatic mode:
+    The temperature and humidity control motor will gradually increase the capacity when the environment is not satisfactory and gradually decrease the capacity when the environment exceeds the requirements.
+![alt text](https://github.com/hmcofetel/air-machine/blob/master/screenshot/demo.gif?raw=true)
+
+  + In non-automatic mode: 
+    The temperature and humidity control motor will run at a fixed capacity that the user needs.
+![alt text](https://github.com/hmcofetel/air-machine/blob/master/screenshot/demo2.gif?raw=true)    
     
