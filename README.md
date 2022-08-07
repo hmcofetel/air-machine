@@ -2,7 +2,7 @@
 This program is written in C language, Using two 16bit pic for interrupt handling, screen control,...and hashing for Motor Control L298.
 
 Main components used:
- + 2 pic 16bit PIC16F877A
+ + 2 pic 8bit PIC16F877A
  + Motor Controll L298
  + Temperature and Humidity sensor DHT11
  + LCD 16x4 LM041L
