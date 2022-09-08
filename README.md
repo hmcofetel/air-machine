@@ -1,5 +1,5 @@
 # air-machine
-This program is written in C language, Using two 16bit pic for interrupt handling, screen control,...and hashing for Motor Control L298.
+This program is written in C language, Using two 8bit pic for interrupt handling, screen control,...and hashing for Motor Control L298.
 
 Main components used:
  + 2 pic 8bit PIC16F877A
